@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Java/Spring
+target/
+*.jar
+*.war
+*.class
+.gradle/
+build/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# Environment
+.env
+.env.local
+*.key
+*.pem
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Personal experiment data
+experiments/personal-logs/*.mp4
+experiments/personal-logs/*.mp3
+experiments/personal-logs/*.wav
+
+# API Keys (주의!)
+**/config/secrets.*
+**/config/api-keys.*
